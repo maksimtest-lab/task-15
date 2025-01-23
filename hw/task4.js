@@ -8,6 +8,8 @@ if (isFinite(userNumber)) {
     console.log(`Округленное до целого: ${roundedNumber}`);
     console.log(`Модуль: ${absNumber}`);
     console.log(`Квадрат: ${squaredNumber}`);
+
 } else {
     console.log('Число бесконечно!');
+
 }
