@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 15 - Homework - Task 11</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Lesson 15 - Homework - Task 11</h1>
+
+    <ol start="3">
+        <li>
+            <b>Проверка числа в строке</b><br>
+            Пользователь вводит строку, содержащую число (например, <em>"123.45abc"</em>). Программа:
+
+            <ul type="disc">
+                <li>
+                    Извлекает числовую часть строки с помощью <em>parseFloat()</em> и проверяет, является ли она конечным числом с помощью <em>isFinite()</em>.
+                </li>
+                <li>
+                    Если число является конечным:
+                    <ul type="circle">
+                        <li>Умножает его на случайное число от 1 до 10 (сгенерированное с помощью <em>Math.random()</em> и <em>Math.floor()</em>).</li>
+                        <li>УВозвращает сообщение в формате: <em>"Извлечённое число: <число>. Умноженное число: <результат>"</em>.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+    <script src="./task11.js"></script>
+
+</body>
+</html>
